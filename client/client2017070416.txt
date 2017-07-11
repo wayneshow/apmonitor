@@ -1,0 +1,25 @@
+show ac-config client | inc BW5-AP-
+========= show sta status =========
+AP    : ap name/radio id
+Status: Speed/Power Save/Work Mode/Roaming State, E = enable power save, D = disable power save
+
+Total Sta Num : 2551
+STA MAC        IPV4 Address    AP                                       Wlan Vlan Status          Asso Auth       Net Auth        Up time     
+-------------- --------------- ---------------------------------------- ---- ---- --------------- --------------- --------------- ------------
+00b3.62ad.648e 192.168.48.106  BW5-AP-3F10/2                            11   27    144.5M/E/an    WPA2_PSK        OPEN              0:00:28:38
+00cd.fe2f.c091 192.168.58.14   BW5-AP-1F04/2                            17   17    144.5M/E/an    WPA2_1X         OPEN              0:00:00:28
+00ec.0a40.81f0 192.168.48.87   BW5-AP-3F10/2                            11   27     72.5M/D/an    WPA2_PSK        OPEN              0:00:00:29
+00ec.0adf.dc4f 192.168.50.81   BW5-AP-1F06/2                            11   27     72.5M/E/an    WPA2_PSK        OPEN              0:00:50:15
+00ec.0af2.186f 192.168.48.108  BW5-AP-3F09/2                            11   27    144.5M/E/an    WPA2_PSK        OPEN              0:00:12:17
+00f7.6f7f.2eef 192.168.14.69   BW5-AP-1F04/1                            8    25     72.5M/E/bgn   WPA2_PSK        OPEN              0:00:01:56
+040c.cee0.f23e 192.168.12.105  BW5-AP-2F07/2                            8    25    130.0M/D/an    WPA2_PSK        OPEN              0:05:50:38
+044b.ed3a.c484 192.168.13.227  BW5-AP-B106/2                            8    25     72.5M/E/an    WPA2_PSK        OPEN              0:01:03:12
+04db.5639.4292 192.168.13.95   BW5-AP-2F11/2                            8    25     72.5M/E/an    WPA2_PSK        OPEN              0:02:44:21
+086d.41d2.0e32 192.168.15.104  BW5-AP-3F06/2                            8    25    144.5M/D/an    WPA2_PSK        OPEN              0:05:41:14
+08fd.0ea4.875e 192.168.48.26   BW5-AP-3F08/2                            11   27     72.5M/E/an    WPA2_PSK        OPEN              0:00:28:34
+0c1d.af40.a966 192.168.13.71   BW5-AP-2F10/2                            8    25     72.5M/E/an    WPA2_PSK        OPEN              1:14:19:28
+0c51.010a.a9a4 192.168.13.234  BW5-AP-2F07/2                            8    25    144.5M/E/an    WPA2_PSK        OPEN              0:00:14:16
+0cd6.bdee.2a59 192.168.14.140  BW5-AP-1F07/1                            8    25      6.5M/E/bgn   WPA2_PSK        OPEN              0:01:03:39
+0cd7.4603.544c 192.168.48.66   BW5-AP-3F10/2                            11   27     72.5M/E/an    WPA2_PSK        OPEN              0:00:20:10
+0cd7.4604.7996 192.168.12.186  BW5-AP-B109/2                            8    25    144.5M/E/an    WPA2_PSK        OPEN              0:00:22:39
+ --More-- 
