@@ -9,17 +9,17 @@ import smtplib
 from email.mime.text import MIMEText
 import string
 
-sender = 'net.srv@guazi.com'
-receiver = ['sunshouwen@guazi.com']
+sender = 'mail.163.com'
+receiver = ['ql.wayne@163.com']
 
 b = ' '.join(receiver)
-c = b.split('@guazi.com')
+c = b.split('@163.com')
 d = ','.join(c[:-1])
 e = string.capwords(d)
 
-smtpserver = 'mail.guazi-corp.com'
-username = 'net.srv@guazi-corp.com'
-password = 'qazwsxcde@1314'
+smtpserver = 'mail.163.com'
+username = 'ql.wayne@163.com'
+password = 'xxxxxxxxx' # 邮箱密码
 
 
 def sendmail(ap):
